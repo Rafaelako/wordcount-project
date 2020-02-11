@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+    <h1>MY HTML is COOL!</h1>
+    <div>
+        <a href="{% url 'about' %}">About</a>
+    </div>
+    <br/>
+    <form action="{% url 'count' %}">
+        <textarea cols="40" rows="5" name="fulltext"></textarea>
+        <br/>
+        <input type="submit" value="Count!"/>
+    </form>
+
+
+
+</body>
+</html>
